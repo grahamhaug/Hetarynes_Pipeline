@@ -66,3 +66,6 @@ reasons. Can resubmit these jobs as-needed and re-process.
 
 ### Reset Jobs that Failed Due to Extraneous Imaginary Frequencies:
 ![Reset_Failed_IFs](Step7_Reset_Imaginary_Freqs.PNG)
+
+### Bundle Reset Jobs for Resubmission:
+![Bundle_Resubs](Step8_Bundled_Resubs.PNG)
