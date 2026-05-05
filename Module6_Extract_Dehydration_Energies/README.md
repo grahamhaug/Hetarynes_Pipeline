@@ -60,3 +60,4 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 
 ### Clean local directories for downstream parameterization 
 - Removes any unpaired files to subdirs to ensure a 1:1 match for directory parsing during parameterization
+![Cleaned_Local_Dirs](Step6_Summary.PNG)
