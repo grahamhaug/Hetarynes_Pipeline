@@ -18,3 +18,6 @@ A robust and transparent means of generating all possible arynes from a parent a
 1. Define relevant Paths to output files in the PATH cell below
 2. Define DFT Job Parameters
 3. Run all cells in the notebook
+
+### Example DFT Input File (Orca Opt+Freq, Hirshfeld Charges, NBO, MOs):
+![Example_Input](Example_DFT_Calc.PNG)
