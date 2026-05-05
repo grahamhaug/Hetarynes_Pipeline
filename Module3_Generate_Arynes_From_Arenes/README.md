@@ -13,3 +13,9 @@ A robust and transparent means of generating all possible arynes from a parent a
 1. Define relevant Paths to output files in the PATH cell below
 2. Run all cells in the notebook
 3. Some cells are "interactive" in the sense that you can render specific arenes/arynes
+
+### Generating Arynes from Arenes via Reaction SMARTS: 
+![Generate_Sample_Arynes](Reaction_SMARTS_on_sample_Arene.PNG)
+
+### Generating Arynes from Arenes en masse: 
+![Generate_All_Arynes](Generate_Arynes_with_print.PNG)
