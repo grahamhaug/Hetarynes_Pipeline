@@ -16,5 +16,5 @@ A simple and expandable script to parse .csv files for 'SMILES' data / simple de
 1. Define relevant Paths to output files in the PATH cell below
 2. Run all cells in the notebook
 
-### Example Output: 
+### Example Notebook Output: 
 ![Combine_CSVs](CSV_Combiner_Output_Example.PNG)
