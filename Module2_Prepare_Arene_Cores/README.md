@@ -35,5 +35,5 @@ A mandatory and thorough pre-parsing of SMILES data to ensure that we are only c
 1. Define relevant Paths to output files in the PATH cell below
 2. Run all cells in the notebook
 
-### Example Output: 
+### Example Notebook Output: 
 ![Example_Output](Prepare_Arene_Cores_Output_Example.PNG)
