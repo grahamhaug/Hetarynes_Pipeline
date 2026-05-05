@@ -44,3 +44,25 @@ I have 1 dir for aryne .outs (/project_dir/aryne_ORCA_ DFT_Outputs/) and 1 dir f
 
 End result should be a top-level dir containing validated .out files and subdirs containing calcs that failed due to various
 reasons. Can resubmit these jobs as-needed and re-process.
+
+## Example Notebook/Processing Output:
+### Initial Pass/Fail Triage:
+![Pass_Fail](Step1_Pass_Fail_Triage.PNG)
+
+### Explicit Optimization Convergence Check:
+![Opt_Check](Step2_Explicit_Optimization_Check.PNG)
+
+### Check for Extraneous Imaginary Frequencies:
+![Freq_Check](Step3_Check_Imag_Freqs.PNG)
+
+### Summarize Processing Results:
+![Summary](Step4_Summary_of_Processing.PNG)
+
+### Isolate Missing (Expected) Out Files:
+![Find_Missing](Step5_Find_Missing_Outs.PNG)
+
+### Reset Jobs that Failed Due to Convergence Issues:
+![Reset_Convergence](Step6_Reset_Failed_Convergence.PNG)
+
+### Reset Jobs that Failed Due to Extraneous Imaginary Frequencies:
+![Reset_Failed_IFs](Step7_Reset_Imaginary_Freqs.PNG)
