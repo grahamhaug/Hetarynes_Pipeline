@@ -63,4 +63,4 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 ![Cleaned_Local_Dirs](Step6_Summary.PNG)
 
 ### Example Dehydration Energies:
-![Dehyd_Energies_Unified](dehydrogenation_energy_histogram_unified.PNG)
+![Dehyd_Energies_Unified](dehydrogenation_energy_histogram_unified.png)
