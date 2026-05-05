@@ -19,6 +19,9 @@ A robust and transparent means of generating all possible arynes from a parent a
 2. Define DFT Job Parameters
 3. Run all cells in the notebook
 
+### Format of Input Data (.csv):
+![csv_format](Mod4_CSV_Format.PNG)
+
 ### Example .sd-file (Following SMILES --> 3D Coord. Conversion):
 ![sd_file](Example_SDF_Generated.PNG)
 
