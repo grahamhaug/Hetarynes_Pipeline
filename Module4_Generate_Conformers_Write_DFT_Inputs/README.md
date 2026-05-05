@@ -21,3 +21,6 @@ A robust and transparent means of generating all possible arynes from a parent a
 
 ### Example DFT Input File (Orca Opt+Freq, Hirshfeld Charges, NBO, MOs):
 ![Example_Input](Example_DFT_Calc.PNG)
+
+### Bundling DFT Calculations in 100-job Batches:
+![Bundling_Calcs](Files_Bundled_for_Submission.PNG)
