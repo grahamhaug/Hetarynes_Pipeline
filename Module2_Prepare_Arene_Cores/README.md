@@ -37,3 +37,6 @@ A mandatory and thorough pre-parsing of SMILES data to ensure that we are only c
 
 ### Example Notebook Output: 
 ![Example_Output](Prepare_Arene_Cores_Output_Example.PNG)
+
+### Output .csv Containing Confirmed Arene SMILES:
+![Example_Output2](Confirmed_SMILES.PNG)
