@@ -13,20 +13,20 @@ aryne-convertible arene precurors in SMILES format.
 1. Attempt to generate a valid/sanitized RDKit Mol object; drop invalid mols
    
 2. Apply SMARTS-based substructure search for exocylic -Ph substituents; replace ring-Ph with ring-CH3 (R-Me). Deduplicate.
-![Remove Exo Rings](Module2_Prepare_Arene_Cores/Step1_Remove_Exocyclic_Ph_subs.PNG)
+![Remove Exo Rings](Step1_Remove_Exocyclic_Ph_subs.PNG)
 
 3. Apply SMARTS-based substructure search for vinylic substituents ring-C=C-R; Fragment to generate ring-CH3 and HC-R
    (and any additional fragments if mutiple vinylic couples). Search for and retain fragments with aromatic ring
    subunits. Deduplicate.
-   ![Remove Exo Rings](Module2_Prepare_Arene_Cores/Step2_Remove_Exocyclic_Vinyls.PNG)
+   ![Remove Exo Rings](Step2_Remove_Exocyclic_Vinyls.PNG)
 
 5. Apply SMARTS-based substructure search for biaryl subunits (ex: Ar-Ar); Fragment at the biaryl sigma bond indices to
    generate distinct ring systems; deduplicate
-   ![Remove Exo Rings](Module2_Prepare_Arene_Cores/Step3_Fragment_Biaryls.PNG)
+   ![Remove Exo Rings](Step3_Fragment_Biaryls.PNG)
 
 7. Perform an explicit check for the presence of at least one C=C double bond within the ring that is convertible to
     a C#C triple bond
-   ![Remove Exo Rings](Module2_Prepare_Arene_Cores/Step4_Retain_Unique_Arene_Cores.PNG)
+   ![Remove Exo Rings](Step4_Retain_Unique_Arene_Cores.PNG)
 
 ### Motivation:
 A mandatory and thorough pre-parsing of SMILES data to ensure that we are only considering valid heterocycles in our database.
@@ -36,4 +36,4 @@ A mandatory and thorough pre-parsing of SMILES data to ensure that we are only c
 2. Run all cells in the notebook
 
 ### Example Output: 
-![Remove Exo Rings](Module2_Prepare_Arene_Cores/Prepare_Arene_Cores_Output_Example.PNG)
+![Remove Exo Rings](Prepare_Arene_Cores_Output_Example.PNG)
