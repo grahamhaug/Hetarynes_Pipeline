@@ -19,3 +19,6 @@ A robust and transparent means of generating all possible arynes from a parent a
 
 ### Generating Arynes from Arenes en masse: 
 ![Generate_All_Arynes](Generate_Arynes_with_print.PNG)
+
+### Arene and Aryne SMILES output to .csv: 
+![Output_Format](Format_of_Output_Dataframe.PNG)
