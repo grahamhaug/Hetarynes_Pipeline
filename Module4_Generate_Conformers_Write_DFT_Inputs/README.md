@@ -27,3 +27,12 @@ A robust and transparent means of generating all possible arynes from a parent a
 
 ### Bundling DFT Calculations in 100-job Batches:
 ![Bundling_Calcs](Files_Bundled_for_Submission.PNG)
+
+### Upload Prepared Files/Directories to a SLURM-based HPC:
+![Calcs_On_HPC](pORCA_Batch_Directory_Organization.PNG)
+
+### Batch DFT Submission (via pORCA):
+![Batch_Submission](pORCA_Batch_Recursion.PNG)
+
+### Processing DFT Outputs (via pORCA):
+![Batch_Process](pOrca_Batch_Processing_Directories.PNG)
