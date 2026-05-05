@@ -53,7 +53,10 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 
 ### Calclulate dE(dehydrogenation) for remaining pairs
 - for any remaining structures, calculate the dE(dehydrogenation) between validated structures
+![Calc_Dehydrogenation_Energy](Step4_Extract_Energies_Calc_Dehyd.PNG)
+
 - Output a cleaned .csv file with data pertaining only to validated .out/.sdf/.xyz/RDKit mol structures
+![Output_CSV](Step5_Output_CSV.PNG)
 
 ### Clean local directories for downstream parameterization 
 - Removes any unpaired files to subdirs to ensure a 1:1 match for directory parsing during parameterization
