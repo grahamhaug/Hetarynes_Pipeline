@@ -1,0 +1,19 @@
+# aryne_187_rdkit_conf_1
+%maxcore 16000
+%pal nprocs 8 end
+! m062x d3zero def2-SVP def2/J defgrid3 tightSCF Hirshfeld Normalprint Printbasis PrintMOs opt freq
+
+%nbo NBOKEYLIST = "$NBO NPA BNDIDX $End" end
+
+* xyz 0 1
+ C   1.66320000   0.92520000  -1.01220000
+ S   0.10940000   1.58090000  -1.02390000
+ N  -0.46850000   0.49070000   0.19510000
+ N  -1.59230000   0.83870000   0.89570000
+ N  -2.03540000  -0.12230000   1.57770000
+ S  -1.13650000  -1.51760000   1.31770000
+ N  -0.13960000  -0.90000000   0.15950000
+ S   1.48130000  -1.25030000   0.51170000
+ C   2.11840000  -0.04520000  -0.48500000
+*
+
