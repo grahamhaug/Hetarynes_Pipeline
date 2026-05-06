@@ -52,6 +52,7 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 - Moves those non-utilized arene/aryne.outs to /excluded subdir within each Arene/Aryne subdirs
 
 ### Calclulate dE(dehydrogenation) for remaining pairs
+![Dehydrogenation_Energy](dehyd_energy_definition.PNG)
 - for any remaining structures, calculate the dE(dehydrogenation) between validated structures
 ![Calc_Dehydrogenation_Energy](Step4_Extract_Energies_Calc_Dehyd.PNG)
 
