@@ -1,5 +1,5 @@
 ### Notebook Overview: 'Extract_Descriptors_from_DFT.ipynb'
-Written by @GCH v1.0 - last updt. 04/01/2026
+Written by @GCH v1.0 - last updt. 05/06/2026
 
 This notebook contains code to extract DFT-derived quantitative and qualitative descriptors from validated Orca Aryne.out files.
 The extracted/calculated descriptors are written incrementally to a Pandas DataFrame called "working_df" before being written
