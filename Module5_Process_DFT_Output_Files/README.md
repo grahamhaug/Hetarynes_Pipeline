@@ -47,25 +47,25 @@ reasons. Can resubmit these jobs as-needed and re-process.
 
 ## Example Notebook/Processing Output:
 ### Initial Pass/Fail Triage:
-![Pass_Fail](Step1_Pass_Fail_Triage.PNG)
+![Pass_Fail](Mod5_Helpful_Pictures/Step1_Pass_Fail_Triage.PNG)
 
 ### Explicit Optimization Convergence Check:
-![Opt_Check](Step2_Explicit_Optimization_Check.PNG)
+![Opt_Check](Mod5_Helpful_Pictures/Step2_Explicit_Optimization_Check.PNG)
 
 ### Check for Extraneous Imaginary Frequencies:
-![Freq_Check](Step3_Check_Imag_Freqs.PNG)
+![Freq_Check](Mod5_Helpful_Pictures/Step3_Check_Imag_Freqs.PNG)
 
 ### Summarize Processing Results:
-![Summary](Step4_Summary_of_Processing.PNG)
+![Summary](Mod5_Helpful_Pictures/Step4_Summary_of_Processing.PNG)
 
 ### Isolate Missing (Expected) Out Files:
-![Find_Missing](Step5_Find_Missing_Outs.PNG)
+![Find_Missing](Mod5_Helpful_Pictures/Step5_Find_Missing_Outs.PNG)
 
 ### Reset Jobs that Failed Due to Convergence Issues:
-![Reset_Convergence](Step6_Reset_Failed_Convergence.PNG)
+![Reset_Convergence](Mod5_Helpful_Pictures/Step6_Reset_Failed_Convergence.PNG)
 
 ### Reset Jobs that Failed Due to Extraneous Imaginary Frequencies:
-![Reset_Failed_IFs](Step7_Reset_Imaginary_Freqs.PNG)
+![Reset_Failed_IFs](Mod5_Helpful_Pictures/Step7_Reset_Imaginary_Freqs.PNG)
 
 ### Bundle Reset Jobs for Resubmission:
 ![Bundle_Resubs](Step8_Bundled_Resubs.PNG)
