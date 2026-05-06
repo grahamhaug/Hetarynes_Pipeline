@@ -68,4 +68,4 @@ reasons. Can resubmit these jobs as-needed and re-process.
 ![Reset_Failed_IFs](Mod5_Helpful_Pictures/Step7_Reset_Imaginary_Freqs.PNG)
 
 ### Bundle Reset Jobs for Resubmission:
-![Bundle_Resubs](Step8_Bundled_Resubs.PNG)
+![Bundle_Resubs](Mod5_Helpful_Pictures/Step8_Bundled_Resubs.PNG)
