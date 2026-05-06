@@ -37,31 +37,31 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 
 ### Validation/GeometryExtraction/File Generation ###
 -Extracts optimized .xyz coordinates from Orca 5.0.3 DFT output files and outputs .xyz files to /optimized_xyz_files/
-![Extract_XYZ_from_Opt](Step1_Write_XYZs_from_Opts.PNG)
+![Extract_XYZ_from_Opt](Mod6_Helpful_Pictures/Step1_Write_XYZs_from_Opts.PNG)
 
 -Uses generated .xyz files to create new .sdf files containing the optimized geometry, output to /Optimized_SDFs/
-![Write_SDF_from_Opt](Step3_Write_Opt_sdfs.PNG)
+![Write_SDF_from_Opt](Mod6_Helpful_Pictures/Step3_Write_Opt_sdfs.PNG)
 
 ### Find and remove broken/invalid arynes from the dataset
 -For aryne structures, compares the pre/post-opt .sdf files for bond cleavage to ID arynes broken open during optimization
 -Removes broken arynes to arynes/success/broken_arynes to remove them from the dataset, output to /Excluded_Aryne_Outs/
-![Exclude_Broken_Opts](Step2_Find_Broken_Arynes.PNG)
+![Exclude_Broken_Opts](Mod6_Helpful_Pictures/Step2_Find_Broken_Arynes.PNG)
 
 ### Truncate Dataset to include only entries for "complete" reactions (Arene => Aryne + H2)
 - Identifies validated but unpaired .out files in the /success/ dirs that don't form dehydrogenation pairs
 - Moves those non-utilized arene/aryne.outs to /excluded subdir within each Arene/Aryne subdirs
 
 ### Calclulate dE(dehydrogenation) for remaining pairs
-![Dehydrogenation_Energy](dehyd_energy_definition.png)
+![Dehydrogenation_Energy](Mod6_Helpful_Pictures/dehyd_energy_definition.png)
 - for any remaining structures, calculate the dE(dehydrogenation) between validated structures
-![Calc_Dehydrogenation_Energy](Step4_Extract_Energies_Calc_Dehyd.PNG)
+![Calc_Dehydrogenation_Energy](Mod6_Helpful_Pictures/Step4_Extract_Energies_Calc_Dehyd.PNG)
 
 - Output a cleaned .csv file with data pertaining only to validated .out/.sdf/.xyz/RDKit mol structures
-![Output_CSV](Step5_Output_CSV.PNG)
+![Output_CSV](Mod6_Helpful_Pictures/Step5_Output_CSV.PNG)
 
 ### Clean local directories for downstream parameterization 
 - Removes any unpaired files to subdirs to ensure a 1:1 match for directory parsing during parameterization
-![Cleaned_Local_Dirs](Step6_Summary.PNG)
+![Cleaned_Local_Dirs](Mod6_Helpful_Pictures/Step6_Summary.PNG)
 
 ### Example Dehydration Energies:
-![Dehyd_Energies_Unified](dehydrogenation_energy_histogram_unified.png)
+![Dehyd_Energies_Unified](Mod6_Helpful_Pictures/dehydrogenation_energy_histogram_unified.png)
