@@ -17,7 +17,7 @@ A simple and expandable script to parse .csv files for 'SMILES' data / simple de
 2. Run all cells in the notebook
 
 ### Output .csv Format:
-![csv_format](mod1_csv_output.PNG)
+![csv_format](Mod1_Helpful_Pictures/mod1_csv_output.PNG)
 
 ### Example Notebook Output: 
-![Combine_CSVs](CSV_Combiner_Output_Example.PNG)
+![Combine_CSVs](Mod1_Helpful_Pictures/CSV_Combiner_Output_Example.PNG)
