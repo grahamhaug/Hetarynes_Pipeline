@@ -10,7 +10,7 @@ output .csv file: 'Arenes_and_Generated_Arynes.csv' that is written to the /Modu
 A robust and transparent means of generating all possible arynes from a parent aryne. Generate SMILES and prepare for DFT campaign. 
 
 ### Planned Features:
-1. Remove CSEARCH Dependency (v. slow/better alternatives)
+1. Remove CSEARCH Dependency (v. slow/better alternatives - currently have to run this from the top level dir for some reason)
 2. Remove QPREP Dependency (doens't handle Paths from super dirs so have to run this notebook from TLD)
 3. Improve conformer generation/workflow/variability
 
