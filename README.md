@@ -22,3 +22,9 @@
 
 ### Schematic of Workflow
 I'm going to be a scheme
+
+### Installation and Configuration
+env.yml conda blah
+
+### Conda/Env. Dependencies:
+tryng to trim more
