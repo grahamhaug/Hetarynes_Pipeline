@@ -53,3 +53,7 @@ details, see the specific inputs/outputs, below.
 1. "Aryne_Calculated_Molecular_Descriptors.csv" - all calculated descriptors and dehydration energies
 2. "5_membered_Calculated_Molecular_Descriptors.csv" - Descriptors for 5-memebered hetarynes, only
 3. "6_membered_Calculated_Molecular_Descriptors.csv" - Descriptors for 6-memebered hetarynes, only
+
+## Descriptor Definitions:
+1. Size of Aryne Ring - what is the number of atoms comprising the ring that the aryne C#C is in?
+![Bond_Dist](Descriptor_Definitions/Desc_Aryne_Bond_Distance.PNG)
