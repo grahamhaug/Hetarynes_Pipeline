@@ -15,10 +15,10 @@ A robust and transparent means of generating all possible arynes from a parent a
 3. Some cells are "interactive" in the sense that you can render specific arenes/arynes
 
 ### Generating Arynes from Arenes via Reaction SMARTS: 
-![Generate_Sample_Arynes](Reaction_SMARTS_on_sample_Arene.PNG)
+![Generate_Sample_Arynes](Mod3_Helpful_Pictures/Reaction_SMARTS_on_sample_Arene.PNG)
 
 ### Generating Arynes from Arenes en masse: 
-![Generate_All_Arynes](Generate_Arynes_with_print.PNG)
+![Generate_All_Arynes](Mod3_Helpful_Pictures/Generate_Arynes_with_print.PNG)
 
 ### Arene and Aryne SMILES output to .csv: 
-![Output_Format](Format_of_Output_Dataframe.PNG)
+![Output_Format](Mod3_Helpful_Pictures/Format_of_Output_Dataframe.PNG)
