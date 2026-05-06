@@ -1,10 +1,10 @@
 # Hetarynes_Pipeline
 @GCH - Last Updated: 05/06/26
 
-### Project Description
+### Project Description:
 A Jupyter Notebook-based end-to-end and modular pipeline for generating a computational dataset of heteroaromatic arynes. Large-scale DFT submission/validation, Parameter Extraction, Chemical Space Analysis, and ML-model development.
 
-### Workflow/Coding Motivation and Philosophy
+### Workflow/Coding Motivation and Philosophy:
 1. Notebooks should be easy to use regardless of technical background/proficiency.
 2. Workflow encourages hands-on/human in-the-loop interaction at key points. 
 3. Workflow steps should be completely transparent in purpose and execution.
@@ -13,7 +13,7 @@ A Jupyter Notebook-based end-to-end and modular pipeline for generating a comput
 6. Notebooks rely on minimal outside dependencies (fewer installs/more robust to external updates).
 7. Workflow should be extendable to other Electronic Structure Packages/Levels of Theory/MLIPs.
 
-### Intended Future Features/Updates
+### Intended Future Features/Updates:
 1. More robust conformational searching/handling priot to Orca.inp generation (ex: CREST/GOAT/etc.)
 2. Allow for DFT calculations to performed with different levels of theory
 3. Additional options for Orca.inp creation for other common job types (scan/TS opt/etc.)
