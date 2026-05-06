@@ -1,5 +1,6 @@
 # Hetarynes_Pipeline
-@GCH - Last Updated: 05/06/26
+@GCH - GrahamSpam88@ gm
+Last Updated: 05/06/26
 
 ### Project Description:
 - A Jupyter Notebook-based end-to-end and modular pipeline for generating a computational dataset of heteroaromatic arynes.
