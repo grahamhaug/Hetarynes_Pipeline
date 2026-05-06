@@ -55,5 +55,30 @@ details, see the specific inputs/outputs, below.
 3. "6_membered_Calculated_Molecular_Descriptors.csv" - Descriptors for 6-memebered hetarynes, only
 
 ## Descriptor Definitions:
-1. Size of Aryne Ring - what is the number of atoms comprising the ring that the aryne C#C is in?
+- Size of Aryne Ring - what is the number of atoms comprising the ring that the aryne C#C is in?
+
 ![Bond_Dist](Descriptor_Definitions/Desc_Aryne_Bond_Distance.PNG)
+
+- Max Aryne Bond Angle - the larger of the two calculated bond angles comprising the aryne bond, in degrees.
+
+![Bond_Angle](Descriptor_Definitions/Desc_Aryne_Max_Internal_Angle.PNG)
+
+- Aryne Dihedral Angle - the dihedral angle, in degrees, of the X-C#C-Y dihedral angle.
+
+![Dih_Angle](Descriptor_Definitions/Desc_Aryne_Dihedral_Angle.PNG)
+
+- Max Deviation of Bond Angle - The largest angle deviation from an equilateral polygon's ideal angles
+
+![Max_Dev_Ideal](Descriptor_Definitions/Desc_Aryne_Max_Angle_Deviation.PNG)
+
+- Sum of Abs. Deviation - the sum of both bond angles' absolute deviation from an ideal polygon
+
+![Max_Dev_Ideal](Descriptor_Definitions/Desc_Aryne_Sum_Abs_Deviation.PNG)
+
+- HOMO/LUMO Energies - in eV or Hartrees, the DFT-energies of the FMOs.
+
+![Orb_Energies](Descriptor_Definitions/Desc_HOMO-LUMO_Gap.PNG)
+
+- Sum of Absolute Difference in Bond Angles |DBA|. 
+
+![Orb_Energies](Descriptor_Definitions/Desc_Aryne_Diff_Abs_Bond_Angle.PNG)
