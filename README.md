@@ -1,4 +1,7 @@
 # Hetarynes_Pipeline
+@GCH - Last Updated: 05/06/26
+
+### Project Description
 A Jupyter Notebook-based end-to-end and modular pipeline for generating a computational dataset of heteroaromatic arynes. Large-scale DFT submission/validation, Parameter Extraction, Chemical Space Analysis, and ML-model development.
 
 ### Workflow/Coding Motivation and Philosophy
