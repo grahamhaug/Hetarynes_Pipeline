@@ -1,4 +1,4 @@
-### 'Generate_Arynes_From_Arenes.ipynb' - @GCH v1.0 - last updt. 05/01/2026
+### 'Generate_Arynes_From_Arenes.ipynb' - @GCH v1.0 - last updt. 05/07/2026
 
 ### Notebook Overview:
 This notebook contains code to generate Aryne SMILES strings from Arene SMILES. A Reaction SMARTS defintion is applied 
