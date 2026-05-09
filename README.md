@@ -19,6 +19,7 @@
 2. Allow for DFT calculations to performed with different levels of theory
 3. Additional options for Orca.inp creation for other common job types (scan/TS opt/etc.)
 4. Better integration with the pOrca SLURM manager package for iterative submission(s).
+5. Expand into MLIP-based workflows
 
 ### Schematic of Workflow
 I'm going to be a scheme
