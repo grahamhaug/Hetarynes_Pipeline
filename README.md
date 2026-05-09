@@ -15,11 +15,12 @@
 7. Workflow should be extendable to other Electronic Structure Packages/Levels of Theory/MLIPs.
 
 ### Intended Future Features/Updates:
-1. More robust conformational searching/handling priot to Orca.inp generation (ex: CREST/GOAT/etc.)
+1. More robust conformational searching/handling prior to Orca.inp generation (ex: CREST/GOAT/etc.)
 2. Allow for DFT calculations to performed with different levels of theory
 3. Additional options for Orca.inp creation for other common job types (scan/TS opt/etc.)
 4. Better integration with the pOrca SLURM manager package for iterative submission(s).
 5. Expand into MLIP-based workflows
+6. Conformational ensembles/analysis
 
 ### Schematic of Workflow
 I'm going to be a scheme
