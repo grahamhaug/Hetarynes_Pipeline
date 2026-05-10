@@ -1,4 +1,4 @@
-### 'Prepare_Arene_Cores.ipynb' - @GCH v1.0 - last updt. 05/07/2026
+### 'Prepare_Arene_Cores.ipynb' - @GCH v1.0 - last updt. 05/10/2026
 
 ### Notebook Overview:
 This notebook contains code to pre-parse incoming raw SMILES data to ensure all incoming SMILES data are valid and chemically 
