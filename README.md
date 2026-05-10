@@ -2,8 +2,8 @@
 @GCH - Last Updated: 05/10/26
 
 ### Project Description:
-The primary motivation of this project is the curation of a computational dataset of structures and quantitative molecular
-descriptors for synthetically accessible heterocylic arynes (hetarynes). The dataset will enable data-driven statistical 
+The primary motivation of this project is the curation of the "HAL-8000" computational dataset of structures and quantitative 
+molecular descriptors for synthetically accessible heterocylic arynes (hetarynes). The dataset will enable data-driven statistical 
 analyses across the range of accessible hetaryne chemical space, furnishing high-level quantitative insights which may allow
 for both advances in synthetic/methodological development and predictive modeling.
 
