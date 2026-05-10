@@ -1,4 +1,4 @@
-### 'Generate_Arynes_From_Arenes.ipynb' - @GCH v1.0 - last updt. 05/07/2026
+### 'Generate_Arynes_From_Arenes.ipynb' - @GCH v1.0 - last updt. 05/10/2026
 
 ### Notebook Overview:
 This notebook contains code to generate Aryne SMILES strings from Arene SMILES. A Reaction SMARTS defintion is applied 
@@ -13,6 +13,9 @@ A robust and transparent means of generating all possible arynes from a parent a
 1. Define relevant Paths to output files in the PATH cell below
 2. Run all cells in the notebook
 3. Some cells are "interactive" in the sense that you can render specific arenes/arynes
+
+### Planned Features:
+1. More robust and class-agnostic molecular validation post-SMARTS
 
 ### Generating Arynes from Arenes via Reaction SMARTS: 
 ![Generate_Sample_Arynes](Mod3_Helpful_Pictures/Reaction_SMARTS_on_sample_Arene.PNG)
