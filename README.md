@@ -15,7 +15,7 @@ Additionally, we have developed an easy-to-use and freely available end-to-end w
 5. Validate DFT output files, identify and reset failed DFT calculations, and extract energies
 6. Extract user-defined quantitative/qualitative molecular descriptors to .csv
 7. Peform univariate analysis of extracted descriptors against DFT energies
-8. Visualize and analyze the resulting data
+8. Visualize and analyze the resulting dataset
 
 The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures
 (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies
