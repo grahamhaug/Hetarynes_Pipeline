@@ -8,7 +8,7 @@ fit to predict DFT-calculated Dehydrogenation Energies.
 ### Example Output:
 
 #### 5-Membered Hetarynes:
-![5-membered_Hets](Baseline_RF_Training_Calc_vs_Pred_5-membered_evaluation)
+![5-membered_Hets](Baseline_RF_Training_Calc_vs_Pred_5-membered_evaluation.png)
 
 #### 6-Membered Hetarynes:
-![6-membered_Hets](Baseline_RF_Training_Calc_vs_Pred_6-membered_evaluation)
+![6-membered_Hets](Baseline_RF_Training_Calc_vs_Pred_6-membered_evaluation.png)
