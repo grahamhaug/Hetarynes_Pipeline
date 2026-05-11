@@ -9,7 +9,7 @@ dehydrogenation for unseen arynes.
 
 ### Motivation:
 An all-in-one Jupyter Notebook for building a Random Forest Regression model for predicting dehydrogenation
-energies. 
+energies.
 
 ### Details on Morgan Fingerprints:
 Morgan Fingerprints are obtained from SMILES strings by:
@@ -21,3 +21,22 @@ Morgan Fingerprints are obtained from SMILES strings by:
 1. Define the relevant paths and directories, below.
 2. Run all cells in the notebook.
 3. Local directory will contain .png files for the generated scatterplots.
+
+### Key Notebook Operations:
+#### Import Data and Apply Train/Test Split:
+![data_import_and_split](RF_Regressor_Pictures/Data_Import_and_Split.PNG)
+
+#### Convert SMILES to Morgan Fingerprints:
+![smiles_to_fps](RF_Regressor_Pictures/Convert_SMILES_to_FPs.PNG)
+
+#### Train a Random Forest Regression Model:
+![rf_regressor](RF_Regressor_Pictures/Train_Simple_RF_Model.PNG)
+
+#### Evaluate Model Performance on Training Data:
+![rf_regressor](RF_Regressor_Pictures/Evaluate_Model_Training.PNG)
+
+#### Evaluate Model Performance on Held-Out Test Data:
+![rf_regressor](RF_Regressor_Pictures/Evaluate_Model_Test_Set.PNG)
+
+#### Visualize RF Regressor Model Performance:
+![Example_Output](Baseline_RF_Training_Calc_vs_Pred_Unified_evaluation.png)
