@@ -74,60 +74,36 @@ I'm going to be a scheme
 </div>
 
 4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks. Here I'm pointing at /Example_dir:
-
-<div align="center">
-  
 ```bash
 cd C:/Chem_Work/Example_Dir
 ```
 
-</div>
-
 5. Use git to clone the copied repository URL - this will place a "Hetarynes_Pipeline" directory containing this project repo in your specified directory:
-
-<div align="center">
-  
 ```bash
 git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
 ```
-
-</div>
 
 <div align="center">
   <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="500">
 </div>
 
 6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
-
-<div align="center">
-  
 ```bash
 cd C:\Chem_Work\Example_Dir\Hetaryes_Pipeline
 ```
-
-</div>
-
-<div align="center"> 
   
 ```bash
 conda env create -f environment.yml
 ```
-
-</div>
 
 <div align="center">
   <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="600">
 </div>
 
 7. After the new conda environment and required software is configured, activate the environment:
-
-<div align="center"> 
-  
 ```bash
 conda activate hetarynes_env
 ```
-
-</div>
 
 <div align="center">
   <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="600">
