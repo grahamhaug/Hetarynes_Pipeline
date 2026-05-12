@@ -71,7 +71,7 @@ I'm going to be a scheme
 2. [Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview) (or Conda) based on your operating system
 3. On the GitHub Repository page, click the green "Code" button and click the icon shaped like two overlaid boxes (circled below in green) to copy the repository URL:
 <div align="center">
-  <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="300">
+  <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="350">
 </div>
 
 4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks. Here I'm pointing at /Example_dir:
@@ -85,7 +85,7 @@ git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="700">
+  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="800">
 </div>
 
 6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
@@ -98,11 +98,11 @@ conda env create -f environment.yml
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="700">
+  <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="800">
 </div>
 
 <div align="center">
-  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="700">
+  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="800">
 </div>
 
 7. After the new conda environment and required software is configured, activate the environment:
@@ -115,7 +115,7 @@ jupyter notebook
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="700">
+  <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="800">
 </div>
 
 8. Finally, use the Jupyter interface to freely manage/run the Notebooks from your machine:
@@ -125,6 +125,9 @@ jupyter notebook
 </div>
 
 ## Software Dependencies:
-1. Git (https://git-scm.com/install/)
-2. Miniconda/Conda (https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
-3. 
+#### Package Management:
+- Git ([Install Git](https://git-scm.com/install/))
+- Miniconda/Conda ([Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview))
+
+
+
