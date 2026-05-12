@@ -1,5 +1,6 @@
 # Hetarynes_Pipeline
-@GCH - Last Updated: 05/11/26 
+@GCH - Last Updated: 05/12/26
+- 05/12/26: Added Installation Guide, Software Dependencies, Workflow Schematic
 - 05/11/26: Added RF Regression Models, Updated main README.md. 
 
 ## Project Overview
