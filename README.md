@@ -36,7 +36,7 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
   
-Our intention is to release highly generalizable and well-documented code to the broader chemical community. Accordingly, the Jupyter Notebooks in this project are intended to serve as on-the-job training tools for new student orientation/training or for individuals looking to expand their own skillsets. Any helpful suggestions or improvements are welcome, ideally following the guidelines, below.
+Our intention is to release highly generalizable and well-documented code to the broader chemical community. Accordingly, the Jupyter Notebooks in this project are intended to serve as on-the-job training tools for new student orientation/training or for individuals looking to expand their own skillsets. To that end, the notebooks are extensively commented throughout to illustrate key inner workings of the code. Any helpful suggestions or improvements are welcome, ideally in line with the MO below:
 
 1. Notebooks should be easy to use regardless of technical background/proficiency.
 2. Workflow encourages hands-on/human in-the-loop interaction at key points. 
