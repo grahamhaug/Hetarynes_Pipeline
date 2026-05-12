@@ -18,16 +18,16 @@ The primary motivation of this project is the curation of the "HAL-8000" computa
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
-- [Mod1](./Module1_Merge_CSVs_Deduplicate_SMILES/README.md) Extract, validate, and deduplicate SMILES strings from multiple .csv datasets
-- [Mod2](./Module2_Prepare_Arene_Cores/README.md) Perform SMARTS-based skeletal editing and post-editing structural validation using RDKit
-- [Mod3](./Module3_Generate_Arynes_From_Arenes/README.md) Use Reaction SMARTS to generate all possible hetarynes from parent hetarynes
-- [Mod4](./Module4_Generate_Conformers_Write_DFT_Inputs/README.md) Convert SMILES => 3D coordinates => Orca DFT input files => Batch for HPC Submission/Processing
-- [Mod5](./Module5_Process_DFT_Output_Files/README.md) Validate DFT output files, identify and reset failed DFT calculations, and extract energies
-- [Mod6](./Module6_Extract_Dehydration_Energies/README.md) Extract user-defined quantitative/qualitative molecular descriptors to .csv
-- [Mod7](./Module7_Extract_DFT_Molecular_Descriptors/README.md) Collate molecular descriptors for training and prepare for univariate analysis
-- [Mod8a](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) Analyze thermodynamic accessibility of hetarynes in HAL-8000
-- [Mod8b](./Module8_Data_Analysis_and_Visualization/Plot_Univariate_Scatterplots/All_Hetarynes/README.md) Perform Univariate statistical analysis of extracted molecular descriptors
-- [Mod8c](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) Train and Evaluate RF Regression ML Models using Morgan Fingerprints
+- [Mod1](./Module1_Merge_CSVs_Deduplicate_SMILES/README.md) - Extract, validate, and deduplicate SMILES strings from multiple .csv datasets
+- [Mod2](./Module2_Prepare_Arene_Cores/README.md) - Perform SMARTS-based skeletal editing and post-editing structural validation using RDKit
+- [Mod3](./Module3_Generate_Arynes_From_Arenes/README.md) - Use Reaction SMARTS to generate all possible hetarynes from parent hetarynes
+- [Mod4](./Module4_Generate_Conformers_Write_DFT_Inputs/README.md) - Convert SMILES => 3D coordinates => Orca DFT input files => Batch for HPC Submission/Processing
+- [Mod5](./Module5_Process_DFT_Output_Files/README.md) - Validate DFT output files, identify and reset failed DFT calculations, and extract energies
+- [Mod6](./Module6_Extract_Dehydration_Energies/README.md) - Extract user-defined quantitative/qualitative molecular descriptors to .csv
+- [Mod7](./Module7_Extract_DFT_Molecular_Descriptors/README.md) - Collate molecular descriptors for training and prepare for univariate analysis
+- [Mod8a](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) - Analyze thermodynamic accessibility of hetarynes in HAL-8000
+- [Mod8b](./Module8_Data_Analysis_and_Visualization/Plot_Univariate_Scatterplots/All_Hetarynes/README.md) - Perform Univariate statistical analysis of extracted molecular descriptors
+- [Mod8c](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) - Train and Evaluate RF Regression ML Models using Morgan Fingerprints
 
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
