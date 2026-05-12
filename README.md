@@ -1,5 +1,6 @@
 # Hetarynes_Pipeline
-@GCH - Last Updated: 05/11/26 (Added RF Regression Models)
+@GCH - Last Updated: 05/11/26 
+- 05/11/26: Added RF Regression Models, Updated main README.md. 
 
 ## Project Overview
 <div style="text-align: justify;">
