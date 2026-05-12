@@ -101,7 +101,7 @@ conda env create -f environment.yml
 </div>
 
 <div align="center">
-  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="800">
+  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="600">
 </div>
 
 7. After the new conda environment and required software is configured, activate the environment:
@@ -120,7 +120,7 @@ jupyter notebook
 8. Finally, use the Jupyter interface to freely manage/run the Notebooks from your machine:
 
 <div align="center">
-  <img src="Docs_and_Schemes/Jupyter_Project_Management.PNG" width="600">
+  <img src="Docs_and_Schemes/Jupyter_Project_Management.PNG" width="800">
 </div>
 
 ## Software Dependencies:
