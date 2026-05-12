@@ -18,14 +18,14 @@ The primary motivation of this project is the curation of the "HAL-8000" computa
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to (see the individual module directories for more details):
-1. [Module_1](./Module1_Merge_CSVs_Deduplicate_SMILES/README.md): Extract, validate, and deduplicate SMILES strings from multiple .csv datasets
-2. Perform SMARTS-based skeletal editing and post-editing structural validation using RDKit (Herein used to retain arene cores)
-3. Use Reaction SMARTS to generate all possible hetarynes from parent hetarynes
-4. Convert SMILES => 3D coordinates => Orca DFT input files => Batch for HPC Submission/Processing
-5. Validate DFT output files, identify and reset failed DFT calculations, and extract energies
-6. Extract user-defined quantitative/qualitative molecular descriptors to .csv
-7. Peform univariate analysis of extracted descriptors against DFT energies
-8. Visualize and analyze the resulting dataset
+1. [Module_1.md](./Module1_Merge_CSVs_Deduplicate_SMILES/README.md): Extract, validate, and deduplicate SMILES strings from multiple .csv datasets
+2. [Module_2.md](./Module2_Prepare_Arene_Cores/README.md): Perform SMARTS-based skeletal editing and post-editing structural validation using RDKit (Herein used to retain arene cores)
+3. [Module_3.md](./Module3_Generate_Arynes_From_Arenes/README.md): Use Reaction SMARTS to generate all possible hetarynes from parent hetarynes
+4. [Module_4.md](./Module4_Generate_Conformers_Write_DFT_Inputs/README.md): Convert SMILES => 3D coordinates => Orca DFT input files => Batch for HPC Submission/Processing
+5. [Module_5.md](./Module5_Process_DFT_Output_Files/README.md): Validate DFT output files, identify and reset failed DFT calculations, and extract energies
+6. [Module_6.md](./Module6_Extract_Dehydration_Energies/README.md): Extract user-defined quantitative/qualitative molecular descriptors to .csv
+7. [Module_7.md](./Module7_Extract_DFT_Molecular_Descriptors/README.md): Peform univariate analysis of extracted descriptors against DFT energies
+8. [Module_8.md](./Module8_Data_Analysis_and_Visualization/README.md): Visualize and analyze the resulting dataset
 
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
