@@ -85,7 +85,7 @@ git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="500">
+  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="600">
 </div>
 
 6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
