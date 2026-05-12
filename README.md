@@ -64,9 +64,17 @@ The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8
 I'm going to be a scheme
 
 ## Installation and Configuration:
-
+1. [Install Git](https://git-scm.com/install/) based on your operating system
+2. [Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview) (or Conda) based on your operating system
+3. On the GitHub Repository page, click the green "Code" button and select 
+4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks:
+```bash
+cd C:/Chem_Work/Example_Dir
+```
+   
 env.yml conda blah
 
 ## Software Dependencies:
-
-tryng to trim more
+1. Git (https://git-scm.com/install/)
+2. Miniconda/Conda (https://www.anaconda.com/docs/getting-started/miniconda/install/overview)
+3. 
