@@ -67,7 +67,7 @@ I'm going to be a scheme
 1. [Install Git](https://git-scm.com/install/) based on your operating system
 2. [Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview) (or Conda) based on your operating system
 3. On the GitHub Repository page, click the green "Code" button and click the two boxes (circled in red) to copy the repository URL:
-![Copy_Repo_URL](Docs_and_Schemes/Clone_Repo_Address.PNG)
+<img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="300">
 
 4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks:
 ```bash
