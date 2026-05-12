@@ -9,6 +9,8 @@ The primary motivation of this project is the curation of the "HAL-8000" computa
 ## Table of Contents:
 * [Project Overview](#project-overview)
 * [Workflow Description](#workflow-description)
+* [HAL_8000](#the-hal-8000-dataset)
+* [Design_Principles](#coding-and-design-philosophies)
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
@@ -26,12 +28,10 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
 </div>
 
-## Motivation:
+## Coding and Design Philosophies:
 <div style="text-align: justify;">
 Our intention is to release highly generalizable and well-documented code to the broader chemical community. Accordingly, the Jupyter Notebooks in this project are intended to serve as on-the-job training tools for new student orientation/training or for individuals looking to expand their own skillsets. Any helpful suggestions or improvements are welcome, ideally following the guidelines, below.
-</div>
 
-## Workflow Design Philosophies:
 1. Notebooks should be easy to use regardless of technical background/proficiency.
 2. Workflow encourages hands-on/human in-the-loop interaction at key points. 
 3. Workflow steps should be completely transparent in purpose and execution.
@@ -39,6 +39,7 @@ Our intention is to release highly generalizable and well-documented code to the
 5. Notebooks should be modular and readily generalizable to other projects.
 6. Notebooks rely on minimal outside dependencies (fewer installs/more robust to external updates).
 7. Workflow should be extendable to other Electronic Structure Packages/Levels of Theory/MLIPs.
+</div>
 
 ## Intended Future Features/Updates:
 1. More robust conformational searching/handling prior to Orca.inp generation (ex: CREST/GOAT/etc.)
