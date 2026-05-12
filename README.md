@@ -1,7 +1,11 @@
 # Hetarynes_Pipeline
 @GCH - Last Updated: 05/11/26 (Added RF Regression Models)
 
-## Project Overview:
+## Table of Contents:
+- [Project Overview][#project-overview]
+- [Workflow Description][#workflow-description]
+
+## Project Overview
 <div style="text-align: justify;">
 The primary motivation of this project is the curation of the "HAL-8000" computational dataset of structures and quantitative molecular descriptors for synthetically accessible heterocylic arynes (hetarynes). The dataset enables data-driven statistical analyses across the range of accessible hetaryne chemical space, furnishing high-level quantitative insights which may allow for both advances in synthetic/methodological development and predictive modeling.
 </div>
