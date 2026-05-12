@@ -26,8 +26,8 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 - [Mod6](./Module6_Extract_Dehydration_Energies/README.md) - Extract user-defined quantitative/qualitative molecular descriptors to .csv
 - [Mod7](./Module7_Extract_DFT_Molecular_Descriptors/README.md) - Collate molecular descriptors for training and prepare for univariate analysis
 - [Mod8a](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) - Analyze thermodynamic accessibility of hetarynes in HAL-8000
-- [Mod8b](./Module8_Data_Analysis_and_Visualization/Plot_Univariate_Scatterplots/All_Hetarynes/README.md) - Perform Univariate statistical analysis of extracted molecular descriptors
-- [Mod8c](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) - Train and Evaluate RF Regression ML Models using Morgan Fingerprints
+- [Mod8b](./Module8_Data_Analysis_and_Visualization/Plot_Univariate_Scatterplots/5_vs_6-Membered_Hetarynes/README.md) - Perform Univariate statistical analysis of extracted molecular descriptors
+- [Mod8c](./Module8_Data_Analysis_and_Visualization/ML_RF_Regression_Models/README.md) - Train and Evaluate RF Regression ML Models using Morgan Fingerprints
 
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
