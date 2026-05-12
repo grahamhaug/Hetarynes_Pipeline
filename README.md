@@ -1,6 +1,6 @@
 # Hetarynes_Pipeline
 @GCH - Last Updated: 05/12/26
-- 05/12/26: Added Installation Guide, Software Dependencies, Workflow Schematic
+- 05/12/26: Added Installation Guide, Workflow Schematic
 - 05/11/26: Added RF Regression Models, Updated main README.md. 
 
 ## Project Overview
@@ -85,7 +85,7 @@ git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="800">
+  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="700">
 </div>
 
 6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
@@ -98,11 +98,11 @@ conda env create -f environment.yml
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="800">
+  <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="700">
 </div>
 
 <div align="center">
-  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="800">
+  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="700">
 </div>
 
 7. After the new conda environment and required software is configured, activate the environment:
@@ -115,7 +115,7 @@ jupyter notebook
 ```
 
 <div align="center">
-  <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="800">
+  <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="700">
 </div>
 
 8. Finally, use the Jupyter interface to freely manage/run the Notebooks from your machine:
@@ -123,11 +123,6 @@ jupyter notebook
 <div align="center">
   <img src="Docs_and_Schemes/Jupyter_Project_Management.PNG" width="800">
 </div>
-
-## Software Dependencies:
-#### Package Management:
-- Git ([Install Git](https://git-scm.com/install/))
-- Miniconda/Conda ([Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview))
 
 
 
