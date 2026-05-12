@@ -2,8 +2,8 @@
 @GCH - Last Updated: 05/11/26 (Added RF Regression Models)
 
 ## Table of Contents:
-- [Project Overview][#project-overview]
-- [Workflow Description][#workflow-description]
+* [Project Overview](#project-overview)
+* [Workflow Description](#workflow-description)
 
 ## Project Overview
 <div style="text-align: justify;">
