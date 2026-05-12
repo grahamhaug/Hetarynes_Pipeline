@@ -25,7 +25,7 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 5. [Module_5.md](./Module5_Process_DFT_Output_Files/README.md): Validate DFT output files, identify and reset failed DFT calculations, and extract energies
 6. [Module_6.md](./Module6_Extract_Dehydration_Energies/README.md): Extract user-defined quantitative/qualitative molecular descriptors to .csv
 7. [Module_7.md](./Module7_Extract_DFT_Molecular_Descriptors/README.md): Peform univariate analysis of extracted descriptors against DFT energies
-8. [Module_8.md](./Module8_Data_Analysis_and_Visualization/README.md): Visualize and analyze the resulting dataset
+8. [Module_8.md](./Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md): Visualize and analyze the resulting dataset
 
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
