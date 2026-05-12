@@ -68,17 +68,34 @@ I'm going to be a scheme
 ## Installation and Configuration:
 1. [Install Git](https://git-scm.com/install/) based on your operating system
 2. [Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview) (or Conda) based on your operating system
-3. On the GitHub Repository page, click the green "Code" button and click the two boxes (circled in red) to copy the repository URL:
+3. On the GitHub Repository page, click the green "Code" button and click the icon shaped like two overlaid boxes (circled in red) to copy the repository URL:
 <div align="center">
-  <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="300">
+  <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="250">
 </div>
 
-5. Open Git Bash and navigate to a directory you'd like to store the project/notebooks:
+4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks. Here I'm pointing at /Example_dir:
 ```bash
 cd C:/Chem_Work/Example_Dir
 ```
-   
-env.yml conda blah
+
+5. Use git to clone the copied repository URL - this will place a "Hetarynes_Pipeline" directory containing this project repo in your specified directory:
+```bash
+git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
+```
+<div align="center">
+  <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="440">
+</div>
+
+6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
+```bash
+cd C:\Chem_Work\Example_Dir\Hetaryes_Pipeline
+```
+```bash
+conda env create -f environment.yml
+```
+<div align="center">
+  <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="500">
+</div>
 
 ## Software Dependencies:
 1. Git (https://git-scm.com/install/)
