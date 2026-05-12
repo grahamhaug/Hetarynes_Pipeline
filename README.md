@@ -49,7 +49,7 @@ Our intention is to release highly generalizable and well-documented code to the
 ## The HAL-8000 Dataset:
 <img align="left" src="Docs_and_Schemes/hal8000_logo.png" width="125">
 <div style="text-align: justify;">
-The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
+The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,156 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
 </div>
 
 
