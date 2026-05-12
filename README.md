@@ -2,10 +2,9 @@
 @GCH - Last Updated: 05/11/26 (Added RF Regression Models)
 
 ## Project Overview:
-The primary motivation of this project is the curation of the "HAL-8000" computational dataset of structures and quantitative 
-molecular descriptors for synthetically accessible heterocylic arynes (hetarynes). The dataset enables data-driven statistical 
-analyses across the range of accessible hetaryne chemical space, furnishing high-level quantitative insights which may allow
-for both advances in synthetic/methodological development and predictive modeling.
+<div style="text-align: justify;">
+The primary motivation of this project is the curation of the "HAL-8000" computational dataset of structures and quantitative molecular descriptors for synthetically accessible heterocylic arynes (hetarynes). The dataset enables data-driven statistical analyses across the range of accessible hetaryne chemical space, furnishing high-level quantitative insights which may allow for both advances in synthetic/methodological development and predictive modeling.
+</div>
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
@@ -19,15 +18,14 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 8. Visualize and analyze the resulting dataset
 
 ## The HAL-8000 Dataset:
-The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures
-(M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies
-(the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are
-retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
+<div style="text-align: justify;">
+The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
+</div>
 
 ## Motivation:
-Our intention is to release highly generalizable and well-documented code to the broader chemical community. Accordingly, the Jupyter
-Notebooks in this project are intended to serve as on-the-job training tools for new student orientation/training or for individuals
-looking to expand their own skillsets. Any helpful suggestions or improvements are welcome, ideally following the guidelines, below.
+<div style="text-align: justify;">
+Our intention is to release highly generalizable and well-documented code to the broader chemical community. Accordingly, the Jupyter Notebooks in this project are intended to serve as on-the-job training tools for new student orientation/training or for individuals looking to expand their own skillsets. Any helpful suggestions or improvements are welcome, ideally following the guidelines, below.
+</div>
 
 ## Workflow Design Philosophies:
 1. Notebooks should be easy to use regardless of technical background/proficiency.
