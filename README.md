@@ -64,7 +64,9 @@ The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8
 
 ## Schematic of Workflow:
 
-I'm going to be a scheme
+<div align="center">
+  <img src="Docs_and_Schemes/Pipeline_Schematic.PNG" width="800">
+</div>
 
 ## Installation and Configuration:
 1. [Install Git](https://git-scm.com/install/) based on your operating system
