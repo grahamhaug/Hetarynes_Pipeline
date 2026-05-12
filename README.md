@@ -56,11 +56,14 @@ The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8
 5. Expand into MLIP-based workflows
 6. Conformational ensembles/analysis
 
-## Schematic of Workflow
+## Schematic of Workflow:
+
 I'm going to be a scheme
 
-## Installation and Configuration
+## Installation and Configuration:
+
 env.yml conda blah
 
 ## Software Dependencies:
+
 tryng to trim more
