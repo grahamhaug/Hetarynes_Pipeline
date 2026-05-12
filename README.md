@@ -18,7 +18,6 @@ This project is supported by NSF-..
 * [The HAL-8000 Dataset](#the-hal-8000-dataset)
 * [Intended Future Features](#intended-future-features-and-updates)
 * [Workflow Visual Schematic](#schematic-of-workflow)
-* [Software Dependencies](#software-dependencies)
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
