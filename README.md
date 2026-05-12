@@ -65,7 +65,7 @@ The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8
 ## Schematic of Workflow:
 
 <div align="center">
-  <img src="Docs_and_Schemes/Pipeline_Schematic.PNG" width="800">
+  <img src="Docs_and_Schemes/Pipeline_Schematic2.PNG" width="800">
 </div>
 
 ## Installation and Configuration:
