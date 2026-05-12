@@ -9,8 +9,12 @@ The primary motivation of this project is the curation of the "HAL-8000" computa
 ## Table of Contents:
 * [Project Overview](#project-overview)
 * [Workflow Description](#workflow-description)
-* [HAL_8000](#the-hal-8000-dataset)
-* [Design_Principles](#coding-and-design-philosophies)
+* [Coding and Design Principles](#coding-and-design-philosophies)
+* [Installation Guide](#installation-and-configuration)
+* [The HAL-8000 Dataset](#the-hal-8000-dataset)
+* [Intended Future Features](#intended-future-features-and-updates)
+* [Workflow Visual Schematic](#schematic-of-workflow)
+* [Software Dependencies](#software-dependencies)
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
@@ -22,11 +26,6 @@ We have developed an easy-to-use and freely available end-to-end workflow in the
 6. Extract user-defined quantitative/qualitative molecular descriptors to .csv
 7. Peform univariate analysis of extracted descriptors against DFT energies
 8. Visualize and analyze the resulting dataset
-
-## The HAL-8000 Dataset:
-<div style="text-align: justify;">
-The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
-</div>
 
 ## Coding and Design Philosophies:
 <div style="text-align: justify;">
@@ -41,7 +40,12 @@ Our intention is to release highly generalizable and well-documented code to the
 7. Workflow should be extendable to other Electronic Structure Packages/Levels of Theory/MLIPs.
 </div>
 
-## Intended Future Features/Updates:
+## The HAL-8000 Dataset:
+<div style="text-align: justify;">
+The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydration energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
+</div>
+
+## Intended Future Features and Updates:
 1. More robust conformational searching/handling prior to Orca.inp generation (ex: CREST/GOAT/etc.)
 2. Allow for DFT calculations to performed with different levels of theory
 3. Additional options for Orca.inp creation for other common job types (scan/TS opt/etc.)
@@ -55,5 +59,5 @@ I'm going to be a scheme
 ## Installation and Configuration
 env.yml conda blah
 
-## Conda/Env. Dependencies:
+## Software Dependencies:
 tryng to trim more
