@@ -17,7 +17,7 @@ The primary motivation of this project is the curation of the "HAL-8000" computa
 * [Software Dependencies](#software-dependencies)
 
 ## Workflow Description:
-We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:
+We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to (see the individual module directories for more details):
 1. Extract, validate, and deduplicate SMILES strings from multiple .csv datasets
 2. Perform SMARTS-based skeletal editing and post-editing structural validation using RDKit (Herein used to retain arene cores)
 3. Use Reaction SMARTS to generate all possible hetarynes from parent hetarynes
