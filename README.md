@@ -100,13 +100,27 @@ conda env create -f environment.yml
   <img src="Docs_and_Schemes/Create_Env_with_Conda.PNG" width="600">
 </div>
 
+<div align="center">
+  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="600">
+</div>
+
 7. After the new conda environment and required software is configured, activate the environment:
 ```bash
 conda activate hetarynes_env
 ```
 
+```bash
+jupyter notebook
+```
+
 <div align="center">
-  <img src="Docs_and_Schemes/Successful_Env_Setup.PNG" width="600">
+  <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="600">
+</div>
+
+8. Finally, use the Jupyter interface to freely manage/run the Notebooks from your machine:
+
+<div align="center">
+  <img src="Docs_and_Schemes/Jupyter_Project_Management.PNG" width="600">
 </div>
 
 ## Software Dependencies:
