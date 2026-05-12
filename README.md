@@ -68,7 +68,7 @@ I'm going to be a scheme
 ## Installation and Configuration:
 1. [Install Git](https://git-scm.com/install/) based on your operating system
 2. [Install Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/overview) (or Conda) based on your operating system
-3. On the GitHub Repository page, click the green "Code" button and click the icon shaped like two overlaid boxes (circled in red) to copy the repository URL:
+3. On the GitHub Repository page, click the green "Code" button and click the icon shaped like two overlaid boxes (circled below in green) to copy the repository URL:
 <div align="center">
   <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="250">
 </div>
