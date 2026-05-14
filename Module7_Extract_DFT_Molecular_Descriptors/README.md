@@ -37,7 +37,7 @@ only 6- or only 5-membered Arynes, respectively.
 5. Output .csvs are separately generated for 5- and 6-membered Arynes and written to the local dir
 
 ### Example:
-I just used the previous module to calculate dehydration energies for all of my arenes and arynes. I now pass the
+I just used the previous module to calculate dehydrogenation energies for all of my arenes and arynes. I now pass the
 relevant directories containing aryne.outs, xyzs, and sdfs in the cell, below. Running each of the following cells
 will populate a "working_df" Pandas DataFrame with calculated descriptors extracted from various files. At the end
 of this process, several output .csvs containing extracted parameters are written to the local directory. For more
@@ -50,7 +50,7 @@ details, see the specific inputs/outputs, below.
 3. "Calculated_Dehydrogenation_Energies.csv" - a .csv containing arenes/arynes and DFT-energies
 
 #### Output:
-1. "Aryne_Calculated_Molecular_Descriptors.csv" - all calculated descriptors and dehydration energies
+1. "Aryne_Calculated_Molecular_Descriptors.csv" - all calculated descriptors and dehydrogenation energies
 2. "5_membered_Calculated_Molecular_Descriptors.csv" - Descriptors for 5-memebered hetarynes, only
 3. "6_membered_Calculated_Molecular_Descriptors.csv" - Descriptors for 6-memebered hetarynes, only
 
