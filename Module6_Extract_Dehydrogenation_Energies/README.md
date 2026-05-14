@@ -1,7 +1,7 @@
 ### Notebook Overview:
 Written by @GCH v1.0 - last updt. 05/05/2026
 
-This notebook contains code to perform more project-specific DFT validation and to extract relevant data from validated ORCA 5.0.3 output (.out) files and write output files (ex: .xyz, .sdf) from the DFT-optimized .out files. Once the DFT.out files are validated, extract dE for arenes/arynes and calculate a dE(dehydration) = dE(Arene) ==> dE(Aryne) + dE(H2) in kcal/mol. Outputs a 'Calculated_Dehydration_Energies.csv' to the /Project_dir and prepares files/directories for Featurization/Parameterization. 
+This notebook contains code to perform more project-specific DFT validation and to extract relevant data from validated ORCA 5.0.3 output (.out) files and write output files (ex: .xyz, .sdf) from the DFT-optimized .out files. Once the DFT.out files are validated, extract dE for arenes/arynes and calculate a dE(dehydrogenation) = dE(Arene) ==> dE(Aryne) + dE(H2) in kcal/mol. Outputs a 'Calculated_Dehydrogenation_Energies.csv' to the /Project_dir and prepares files/directories for Featurization/Parameterization. 
 
 ### Planned Features:
 1. Ensure all methods are commented/have documentation
@@ -63,5 +63,5 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 - Removes any unpaired files to subdirs to ensure a 1:1 match for directory parsing during parameterization
 ![Cleaned_Local_Dirs](Mod6_Helpful_Pictures/Step6_Summary.PNG)
 
-### Example Dehydration Energies:
+### Example Dehydrogenation Energies:
 ![Dehyd_Energies_Unified](Mod6_Helpful_Pictures/dehydrogenation_energy_histogram_unified.png)
