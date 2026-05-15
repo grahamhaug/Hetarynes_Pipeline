@@ -75,7 +75,7 @@ The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8
   <img src="Docs_and_Schemes/Clone_Repo_Address.PNG" width="350">
 </div>
 
-4. Open Git Bash and navigate to a directory you'd like to store the project/notebooks. Here I'm pointing at /Example_dir:
+4. Open a terminal (Git Bash on Windows, Terminal on macOS, or any shell on Linux) and navigate to a directory you'd like to store the project/notebooks. On Windows the example below uses `C:/Chem_Work/Example_Dir`; macOS/Linux users can use any writable path (e.g. `~/Chem_Work/Example_Dir`):
 ```bash
 cd C:/Chem_Work/Example_Dir
 ```
@@ -89,13 +89,18 @@ git clone https://github.com/grahamhaug/Hetarynes_Pipeline.git
   <img src="Docs_and_Schemes/Cloning_to_local.PNG" width="700">
 </div>
 
-6. In an anaconda prompt, navigate to the newly created path using 'cd' and create a new conda environment from the included 'environment.yml' file:
+6. In an Anaconda prompt (Windows) or terminal (macOS/Linux), navigate to the newly created path using `cd` and create a new conda environment from the included environment file.
+
+   **Windows:** use the fully-pinned [environment.yml](environment.yml):
 ```bash
-cd C:\Chem_Work\Example_Dir\Hetaryes_Pipeline
-```
-  
-```bash
+cd C:\Chem_Work\Example_Dir\Hetarynes_Pipeline
 conda env create -f environment.yml
+```
+
+   **macOS / Linux:** use the portable [environment-portable.yml](environment-portable.yml) instead — the Windows lockfile pins build hashes that don't resolve on other platforms:
+```bash
+cd ~/Chem_Work/Example_Dir/Hetarynes_Pipeline
+conda env create -f environment-portable.yml
 ```
 
 <div align="center">
@@ -118,6 +123,8 @@ jupyter notebook
 <div align="center">
   <img src="Docs_and_Schemes/Activate_and_Launch_Jupyter.PNG" width="700">
 </div>
+
+> **macOS PATH note:** AQME's `csearch` calls the `obabel` command-line binary as a subprocess, so the conda env's `bin/` must be at the **front** of your shell `PATH`. On most setups `conda activate hetarynes_env` handles this automatically, but if you have a `.zshrc` / `.bash_profile` that re-prepends a system Python path (e.g. `/Library/Developer/CommandLineTools/...`), AQME will silently exit with `"Open Babel is not installed!"`. Verify with `which obabel` after activating — it should point inside `…/envs/hetarynes_env/bin`. If it doesn't, prepend manually: `export PATH="$CONDA_PREFIX/bin:$PATH"`.
 
 8. Finally, use the Jupyter interface to freely manage/run the Notebooks from your machine:
 

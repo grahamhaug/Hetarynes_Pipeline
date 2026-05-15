@@ -1,0 +1,61 @@
+name: hetarynes_env
+channels:
+  - conda-forge
+  - defaults
+
+# Portable, cross-platform environment file (Windows / macOS / Linux).
+# Use this on macOS or Linux; Windows users can use either this file or the
+# fully-pinned environment.yml.
+#
+# Build:
+#   conda env create -f environment-portable.yml
+#   conda activate hetarynes_env
+#
+# Top-level dependencies only — conda solves transitive deps locally so the
+# same file works on every supported platform.
+
+dependencies:
+  - python=3.12
+
+  # Jupyter
+  - jupyter
+  - notebook
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+
+  # Scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - numba
+  - shap
+
+  # Cheminformatics
+  - rdkit
+  - openbabel
+  - molpipeline
+
+  # Pipeline-specific utilities
+  - natsort
+  - file-read-backwards
+  - loguru
+  - tqdm
+  - reportlab
+  - pyyaml
+  - requests
+  - sqlalchemy
+
+  - pip
+  - pip:
+      - aqme==2.0.0
+      - cclib==1.8.1
+      - fire==0.7.1
+      - morfeus-ml==0.8.0
+      - periodictable==2.1.0
+      - termcolor==3.3.0
+      - progress==1.6.1
