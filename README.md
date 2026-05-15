@@ -12,6 +12,7 @@ This material is based upon work supported by the U.S. National Science Foundati
 
 ## Table of Contents:
 * [Project Overview](#project-overview)
+* [Quickstart (5 minutes, no DFT)](#quickstart-5-minutes-no-dft)
 * [How to Cite](#how-to-cite)
 * [Workflow Description](#workflow-description)
 * [Coding and Design Principles](#coding-and-design-philosophies)
@@ -19,6 +20,19 @@ This material is based upon work supported by the U.S. National Science Foundati
 * [The HAL-8000 Dataset](#the-hal-8000-dataset)
 * [Intended Future Features](#intended-future-features-and-updates)
 * [Workflow Visual Schematic](#schematic-of-workflow)
+
+## Quickstart (5 minutes, no DFT):
+
+After completing the [Installation](#installation-and-configuration) steps, launch Jupyter from the project root and open [`examples/quickstart.ipynb`](examples/quickstart.ipynb):
+
+```bash
+conda activate hetarynes_env
+jupyter notebook examples/quickstart.ipynb
+```
+
+Run all cells. The notebook takes 10 sample heteroaromatic SMILES through Modules 1 → 3 of the pipeline (SMILES validation → core filtering via SMARTS → aryne generation via Reaction SMARTS), renders the resulting arynes inline with RDKit, and completes in under 30 seconds on a laptop. No DFT calculations, no HPC access required.
+
+This is the recommended way to verify your install and to get a feel for the pipeline before tackling the full DFT workflow (Modules 4 → 7).
 
 ## How to Cite:
 
