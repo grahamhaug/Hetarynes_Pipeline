@@ -1,0 +1,88 @@
+name: CI
+
+# Smoke-tests the SMILES-processing front of the pipeline (Modules 1-3) and the
+# analysis tail (Module 8 histogram + RF regression) on every push and PR.
+# Modules 4-7 are skipped because they require DFT (.out) files that aren't
+# in the repo.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pre-commit:
+    name: pre-commit (nbstripout)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: pre-commit/action@v3.0.1
+
+  smoke-test:
+    name: Smoke test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache conda env
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/conda_pkgs_dir
+            ${{ env.CONDA }}/envs/hetarynes_env
+          key: conda-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('environment-portable.yml') }}
+
+      - name: Set up conda + create hetarynes_env
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment-portable.yml
+          activate-environment: hetarynes_env
+          auto-update-conda: false
+          miniforge-version: latest
+          use-only-tar-bz2: false
+
+      - name: Verify imports
+        run: |
+          python -c "import rdkit, openbabel, aqme, cclib, morfeus, pandas, sklearn, shap; print('all imports ok')"
+
+      - name: Run Module 1 (CSV combiner / dedupe)
+        working-directory: Module1_Merge_CSVs_Deduplicate_SMILES
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod1_ci.ipynb CSV_combiner.ipynb
+
+      - name: Run Module 2 (Arene core prep)
+        working-directory: Module2_Prepare_Arene_Cores
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod2_ci.ipynb Prepare_Arene_Cores_051026.ipynb
+
+      - name: Run Module 3 (Aryne generation)
+        working-directory: Module3_Generate_Arynes_From_Arenes
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod3_ci.ipynb Generate_Arynes_From_Arenes.ipynb
+
+      - name: Run Module 8 histogram
+        working-directory: Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod8_hist_ci.ipynb Plot_Dehydrogenation_Histogram_Unified_Fancy.ipynb
+
+      - name: Run Module 8 scatter (5 vs 6-membered)
+        working-directory: Module8_Data_Analysis_and_Visualization/Plot_Univariate_Scatterplots/5_vs_6-Membered_Hetarynes
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod8_scatter_ci.ipynb 5_vs_6_mem_Hetarynes_Univariate_Scatter_Plots.ipynb
+
+      - name: Run Module 8 RF regression (all hetarynes)
+        working-directory: Module8_Data_Analysis_and_Visualization/ML_RF_Regression_Models
+        run: |
+          jupyter nbconvert --to notebook --execute --output /tmp/mod8_rf_ci.ipynb RF_Regressor_All_Hetarynes.ipynb
