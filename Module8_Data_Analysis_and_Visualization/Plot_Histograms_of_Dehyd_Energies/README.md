@@ -11,3 +11,8 @@ This directory contains Jupyter Notebooks used to render histograms of arynes by
 
 ### Arynes by difference in bond angle across aryne bond:
 ![strain_by_ring_size](modulo_bond_angles_histogram_by_ring_size.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 7 — Extract Molecular Descriptors](../../Module7_Extract_DFT_Molecular_Descriptors/README.md)

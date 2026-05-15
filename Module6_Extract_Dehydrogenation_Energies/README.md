@@ -65,3 +65,8 @@ Input: Directories containing Orca 5.0.3 DFT output files (opt+freq; M06-2X-D3 /
 
 ### Example Dehydrogenation Energies:
 ![Dehyd_Energies_Unified](Mod6_Helpful_Pictures/dehydrogenation_energy_histogram_unified.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 5 — Process DFT Output Files](../Module5_Process_DFT_Output_Files/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 7 — Extract Molecular Descriptors](../Module7_Extract_DFT_Molecular_Descriptors/README.md) ➡

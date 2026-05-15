@@ -82,3 +82,8 @@ details, see the specific inputs/outputs, below.
 - Sum of Absolute Difference in Bond Angles |DBA|. 
 
 ![Orb_Energies](Descriptor_Definitions/Desc_Aryne_Diff_Abs_Bond_Angle.PNG)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 6 — Dehydrogenation Energies](../Module6_Extract_Dehydrogenation_Energies/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 8a — Histograms](../Module8_Data_Analysis_and_Visualization/Plot_Histograms_of_Dehyd_Energies/README.md) ➡

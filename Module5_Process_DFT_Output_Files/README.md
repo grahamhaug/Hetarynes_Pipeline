@@ -69,3 +69,8 @@ reasons. Can resubmit these jobs as-needed and re-process.
 
 ### Bundle Reset Jobs for Resubmission:
 ![Bundle_Resubs](Mod5_Helpful_Pictures/Step8_Bundled_Resubs.PNG)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 4 — Conformers + DFT Inputs](../Module4_Generate_Conformers_Write_DFT_Inputs/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 6 — Dehydrogenation Energies](../Module6_Extract_Dehydrogenation_Energies/README.md) ➡

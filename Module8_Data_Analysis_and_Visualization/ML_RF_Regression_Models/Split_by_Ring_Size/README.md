@@ -12,3 +12,8 @@ fit to predict DFT-calculated Dehydrogenation Energies.
 
 #### 6-Membered Hetarynes:
 ![6-membered_Hets](Baseline_RF_Training_Calc_vs_Pred_6-membered_evaluation.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 7 — Extract Molecular Descriptors](../../../Module7_Extract_DFT_Molecular_Descriptors/README.md)

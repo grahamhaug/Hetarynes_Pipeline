@@ -7,3 +7,8 @@ Is there a clear descriptor that correlates highly with DFT-calculated dehydroge
 
 ### Example Output: HOMO-LUMO Gap (eV)
 ![HOMO-LUMO_Gap](Unified_Aryne_HOMO-LUMO_Gap_vs_dEdehyd_with_histos.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 7 — Extract Molecular Descriptors](../../../Module7_Extract_DFT_Molecular_Descriptors/README.md)

@@ -21,3 +21,8 @@ A simple and expandable script to parse .csv files for 'SMILES' data / simple de
 
 ### Example Notebook Output: 
 ![Combine_CSVs](Mod1_Helpful_Pictures/CSV_Combiner_Output_Example.PNG)
+
+---
+
+<!-- nav-footer -->
+Next: [Module 2 — Prepare Arene Cores](../Module2_Prepare_Arene_Cores/README.md) ➡

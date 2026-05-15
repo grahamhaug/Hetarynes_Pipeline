@@ -50,3 +50,8 @@ A mandatory and thorough pre-parsing of SMILES data to ensure that we are only c
 
 ### Output .csv Containing Confirmed Arene SMILES:
 ![Example_Output2](Mod2_Helpful_Pictures/Confirmed_SMILES.PNG)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 1 — Merge & Dedupe SMILES](../Module1_Merge_CSVs_Deduplicate_SMILES/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 3 — Generate Arynes](../Module3_Generate_Arynes_From_Arenes/README.md) ➡

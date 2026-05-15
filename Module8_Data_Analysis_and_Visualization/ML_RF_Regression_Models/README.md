@@ -40,3 +40,8 @@ Morgan Fingerprints are obtained from SMILES strings by:
 
 #### Visualize RF Regressor Model Performance:
 ![Example_Output](Baseline_RF_Training_Calc_vs_Pred_Unified_evaluation.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 7 — Extract Molecular Descriptors](../../Module7_Extract_DFT_Molecular_Descriptors/README.md)

@@ -7,3 +7,8 @@ Is there a clear descriptor that correlates highly with DFT-calculated dehydrati
 
 ### Example Output: HOMO-LUMO Gap (eV)
 ![DBA](5_vs_6_Modulo_Aryne_Bond_Angles_vs_dEdehyd_with_histos.png)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 7 — Extract Molecular Descriptors](../../../Module7_Extract_DFT_Molecular_Descriptors/README.md)

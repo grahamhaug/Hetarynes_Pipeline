@@ -25,3 +25,8 @@ A robust and transparent means of generating all possible arynes from a parent a
 
 ### Arene and Aryne SMILES output to .csv: 
 ![Output_Format](Mod3_Helpful_Pictures/Format_of_Output_Dataframe.PNG)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 2 — Prepare Arene Cores](../Module2_Prepare_Arene_Cores/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 4 — Conformers + DFT Inputs](../Module4_Generate_Conformers_Write_DFT_Inputs/README.md) ➡
