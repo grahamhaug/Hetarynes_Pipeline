@@ -1,0 +1,9 @@
+# See https://pre-commit.com for usage. Install with `pip install pre-commit`,
+# then run `pre-commit install` once inside the repo to activate the hooks.
+repos:
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.7.1
+    hooks:
+      - id: nbstripout
+        # Strip cell outputs and execution_count metadata from .ipynb files
+        # on every commit, so the diff history reflects code changes only.
