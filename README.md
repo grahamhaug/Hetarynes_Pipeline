@@ -43,6 +43,7 @@ If you use this software or the HAL-8000 dataset in your research, please cite b
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 -->
 Access the HAL-8000 DFT Structural dataset here:
+
 [![DOI](https://img.shields.io/badge/HAL-8000_DFT_%20Data-red)](https://figshare.com/articles/dataset/HAL-8000_DFT_Structural_Dataset/32305362)
 
 BibTeX:
