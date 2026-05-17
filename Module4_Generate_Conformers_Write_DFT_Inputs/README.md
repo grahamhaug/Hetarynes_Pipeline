@@ -53,3 +53,8 @@ more powerful/robust means of generating conformers and selecting which to use f
 
 ### Processing DFT Outputs (via pORCA):
 ![Batch_Process](Mod4_Helpful_Pictures/pOrca_Batch_Processing_Directories.PNG)
+
+---
+
+<!-- nav-footer -->
+⬅ Previous: [Module 3 — Generate Arynes](../Module3_Generate_Arynes_From_Arenes/README.md) &nbsp;&nbsp;|&nbsp;&nbsp; Next: [Module 5 — Process DFT Output Files](../Module5_Process_DFT_Output_Files/README.md) ➡

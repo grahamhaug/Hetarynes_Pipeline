@@ -12,12 +12,47 @@ This material is based upon work supported by the U.S. National Science Foundati
 
 ## Table of Contents:
 * [Project Overview](#project-overview)
+* [Quickstart (5 minutes, no DFT)](#quickstart-5-minutes-no-dft)
+* [How to Cite](#how-to-cite)
 * [Workflow Description](#workflow-description)
 * [Coding and Design Principles](#coding-and-design-philosophies)
 * [Installation Guide](#installation-and-configuration)
 * [The HAL-8000 Dataset](#the-hal-8000-dataset)
 * [Intended Future Features](#intended-future-features-and-updates)
 * [Workflow Visual Schematic](#schematic-of-workflow)
+
+## Quickstart (5 minutes, no DFT):
+
+After completing the [Installation](#installation-and-configuration) steps, launch Jupyter from the project root and open [`examples/quickstart.ipynb`](examples/quickstart.ipynb):
+
+```bash
+conda activate hetarynes_env
+jupyter notebook examples/quickstart.ipynb
+```
+
+Run all cells. The notebook takes 10 sample heteroaromatic SMILES through Modules 1 → 3 of the pipeline (SMILES validation → core filtering via SMARTS → aryne generation via Reaction SMARTS), renders the resulting arynes inline with RDKit, and completes in under 30 seconds on a laptop. No DFT calculations, no HPC access required.
+
+This is the recommended way to verify your install and to get a feel for the pipeline before tackling the full DFT workflow (Modules 4 → 7).
+
+## How to Cite:
+
+If you use this software or the HAL-8000 dataset in your research, please cite both the code repository and (once minted) the Zenodo archive. GitHub renders a "Cite this repository" widget in the sidebar of the repo home page from the [`CITATION.cff`](CITATION.cff) file.
+
+<!-- Once a Zenodo DOI is minted (see release process), add a badge here:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+-->
+
+BibTeX:
+```bibtex
+@software{hetarynes_pipeline_2026,
+  title   = {Hetarynes\_Pipeline: HAL-8000 hetaryne dataset curation workflow},
+  author  = {Haug, Graham and Davis, Benjamin and Kisunzu, Jessica and Biswas, Dalia and Paton, Robert S.},
+  year    = {2026},
+  url     = {https://github.com/grahamhaug/Hetarynes_Pipeline},
+  version = {1.0.0},
+  license = {MIT}
+}
+```
 
 ## Workflow Description:
 We have developed an easy-to-use and freely available end-to-end workflow in the form of Jupyter Notebooks to:

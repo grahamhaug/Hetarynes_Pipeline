@@ -1,0 +1,74 @@
+# This CITATION.cff file is rendered by GitHub as a "Cite this repository"
+# widget in the sidebar of the repository home page. See
+# https://citation-file-format.github.io for the schema.
+#
+# Once a Zenodo DOI has been minted for this software, add an identifiers
+# block (see the commented section at the bottom of this file).
+
+cff-version: 1.2.0
+title: "Hetarynes_Pipeline: HAL-8000 hetaryne dataset curation workflow"
+message: "If you use this software or the HAL-8000 dataset in your research, please cite as below."
+type: software
+
+authors:
+  - family-names: Haug
+    given-names: Graham
+    # orcid: https://orcid.org/0000-0000-0000-0000
+    # affiliation: <affiliation>
+  - family-names: Davis
+    given-names: Benjamin
+    # orcid: https://orcid.org/0000-0000-0000-0000
+    # affiliation: <affiliation>
+  - family-names: Kisunzu
+    given-names: Jessica
+    # orcid: https://orcid.org/0000-0000-0000-0000
+    # affiliation: <affiliation>
+  - family-names: Biswas
+    given-names: Dalia
+    # orcid: https://orcid.org/0000-0000-0000-0000
+    # affiliation: <affiliation>
+  - family-names: Paton
+    given-names: Robert S.
+    # orcid: https://orcid.org/0000-0000-0000-0000
+    # affiliation: <affiliation>
+
+repository-code: "https://github.com/grahamhaug/Hetarynes_Pipeline"
+url: "https://github.com/grahamhaug/Hetarynes_Pipeline"
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-15"
+
+abstract: >
+  An end-to-end Jupyter Notebook pipeline for curating the HAL-8000
+  computational dataset of heterocyclic arynes (hetarynes), comprising
+  ~7,143 heterocyclic arenes, ~8,116 derived heterocyclic arynes,
+  their DFT-optimized 3D structures (Orca 5.0.3, M06-2X-D3 / def2-SVP),
+  calculated dehydrogenation energies, and extracted molecular
+  descriptors. Supports data-driven statistical analyses and machine
+  learning of hetaryne chemical space.
+
+keywords:
+  - hetarynes
+  - arynes
+  - heteroaromatic
+  - DFT
+  - density-functional-theory
+  - molecular-descriptors
+  - cheminformatics
+  - SMILES
+  - SMARTS
+  - rdkit
+  - computational-chemistry
+  - machine-learning
+  - random-forest
+  - Morgan-fingerprints
+
+# After a Zenodo release is cut, uncomment and fill in the identifiers block:
+#
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: Zenodo software DOI for this release
+#   - type: doi
+#     value: 10.5281/zenodo.YYYYYYY
+#     description: Zenodo dataset DOI for the HAL-8000 archive
