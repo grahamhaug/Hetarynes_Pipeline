@@ -42,6 +42,8 @@ If you use this software or the HAL-8000 dataset in your research, please cite b
 <!-- Once a Zenodo DOI is minted (see release process), add a badge here:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 -->
+Access the HAL-8000 DFT Structural dataset here:
+[![DOI](https://img.shields.io/badge/HAL-8000_DFT_%20Data-red)](https://figshare.com/articles/dataset/HAL-8000_DFT_Structural_Dataset/32305362)
 
 BibTeX:
 ```bibtex
@@ -86,6 +88,9 @@ Our intention is to release highly generalizable and well-documented code to the
 <img align="left" src="Docs_and_Schemes/hal8000_logo.png" width="125">
 <div style="text-align: justify;">
 The code herein has been used to curate the Heteroaromatic Aryne Library (HAL)-8000. This dataset includes DFT-level structures (M06-2X(D3) / def2-SVP) for 7,143 heterocyclic arenes, 8,116 derived heterocyclic arynes, 8116 DFT-calculated dehydrogenation energies (the energy required to access an aryne, Arene ==> Aryne + H2), and extracted molecular descriptors. DFT-optimized structures are retained as both .xyz and .sdf formats while the tabulated data are retained as .csv files.
+
+Access the DFT Structural Dataset (.inp, .out, .xyz, .sdf) here:
+[![DOI](https://img.shields.io/badge/HAL-8000_DFT_%20Data-red)](https://figshare.com/articles/dataset/HAL-8000_DFT_Structural_Dataset/32305362)
 </div>
 
 
