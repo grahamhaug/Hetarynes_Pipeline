@@ -39,10 +39,7 @@ This is the recommended way to verify your install and to get a feel for the pip
 
 If you use this software or the HAL-8000 dataset in your research, please cite both the code repository and (once minted) the Zenodo archive. GitHub renders a "Cite this repository" widget in the sidebar of the repo home page from the [`CITATION.cff`](CITATION.cff) file.
 
-<!-- Once a Zenodo DOI is minted (see release process), add a badge here:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
-Access the HAL-8000 DFT Structural dataset here:
+Figshare Repository of DFT Structural Data:
 
 [![DOI](https://img.shields.io/badge/HAL--8000_DFT_Dataset-blue?style=for-the-badge&logo=figshare&logoSize=auto)](https://figshare.com/articles/dataset/HAL-8000_DFT_Structural_Dataset/32305362)
 
