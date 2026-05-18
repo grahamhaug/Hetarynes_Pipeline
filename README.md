@@ -1,5 +1,5 @@
 # Hetarynes_Pipeline
-@GCH - Last Updated: 05/17/26
+@GCH and @BobbyPaton - Last Updated: 05/17/26
 - 05/17/26: Merged ImplementationPlan branch with Main; added FigShare dataset.
 - 05/12/26: Added Installation Guide, Workflow Schematic
 - 05/11/26: Added RF Regression Models, Updated main README.md. 
