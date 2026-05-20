@@ -37,7 +37,7 @@ This is the recommended way to verify your install and to get a feel for the pip
 
 ## How to Cite:
 
-If you use this software or the HAL-8000 dataset in your research, please cite both the code repository and (once minted) the Zenodo archive. GitHub renders a "Cite this repository" widget in the sidebar of the repo home page from the [`CITATION.cff`](CITATION.cff) file.
+If you use this software or the HAL-8000 dataset in your research, please cite both the code repository and the FigShare archive. GitHub renders a "Cite this repository" widget in the sidebar of the repo home page from the [`CITATION.cff`](CITATION.cff) file.
 
 Figshare Repository of DFT Structural Data:
 
